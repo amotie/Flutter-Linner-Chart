@@ -24,7 +24,7 @@ class ColorPiker {
     int defrenceRed = (colors.last.red - color.red).abs();
     int defrenceBlue = (colors.last.blue - color.blue).abs();
 
-    if (defrenceGreen <= 1000 && defrenceRed <= 1000 && defrenceBlue <= 1000) {
+    if (defrenceGreen <= 100 && defrenceRed <= 100 && defrenceBlue <= 100) {
       return true;
     } else {
       return false;
