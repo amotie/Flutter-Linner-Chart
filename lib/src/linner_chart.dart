@@ -1,4 +1,4 @@
-import 'package:chart/src/helpers/color_picker.dart';
+
 import 'package:chart/src/models/chart_model.dart';
 import 'package:chart/src/view/chart_painter.dart';
 import 'package:flutter/material.dart';
