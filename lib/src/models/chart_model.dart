@@ -10,4 +10,7 @@ class ChartModel {
   }) {
     color = colorPiker.getColor();
   }
+  set persintgevalue(double persint) {
+    persintge = persint;
+  }
 }
