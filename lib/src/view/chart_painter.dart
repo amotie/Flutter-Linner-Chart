@@ -25,7 +25,7 @@ class ChartPainter extends CustomPainter {
           ..color = charts![index].color
           ..strokeCap = StrokeCap.round
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 20
+          ..strokeWidth = strokeWidth
           ..style = PaintingStyle.stroke;
         var endpoint = size.width * charts![index].persintge;
         canvas.drawLine(const Offset(0, 0), Offset(endpoint, 0), item);
@@ -35,7 +35,7 @@ class ChartPainter extends CustomPainter {
           ..color = charts![index].color
           ..strokeCap = StrokeCap.round
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 20
+          ..strokeWidth = strokeWidth
           ..style = PaintingStyle.stroke;
         var endpoint = size.width * (charts![index].persintge + persintge);
 
@@ -47,7 +47,7 @@ class ChartPainter extends CustomPainter {
           ..color = charts![index].color
           ..strokeCap = StrokeCap.round
           ..style = PaintingStyle.stroke
-          ..strokeWidth = 20
+          ..strokeWidth = strokeWidth
           ..style = PaintingStyle.stroke;
         var endpoint = size.width * (charts![index].persintge + persintge);
 
