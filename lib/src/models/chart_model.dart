@@ -5,11 +5,12 @@ class ChartModel {
   double persintge;
   late Color color;
   ColorPiker colorPiker = ColorPiker();
-  ChartModel({
-    required this.persintge,
-  }) {
-    color = colorPiker.getColor();
+  Color? selectColor;
+
+  ChartModel({required this.persintge, this.selectColor}) {
+    color = selectColor ?? colorPiker.getColor();
   }
+
   set persintgevalue(double persint) {
     persintge = persint;
   }
