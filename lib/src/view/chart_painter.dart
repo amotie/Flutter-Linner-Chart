@@ -28,7 +28,11 @@ class ChartPainter extends CustomPainter {
             ..style = PaintingStyle.stroke
             ..strokeWidth = strokeWidth
             ..style = PaintingStyle.stroke;
+
           var endpoint = size.width * charts![index].persintge;
+          if (charts![index].persintge > 1.0) {
+            endpoint = size.width;
+          }
           canvas.drawLine(const Offset(0, 0), Offset(endpoint, 0), item);
           persintge += charts![index].persintge;
         } else if (index == charts!.length - 1) {
