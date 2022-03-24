@@ -13,4 +13,8 @@ class ChartModel {
   set persintgevalue(double persint) {
     persintge = persint;
   }
+
+  set colorvalue(Color selctedColor) {
+    color = selctedColor;
+  }
 }
