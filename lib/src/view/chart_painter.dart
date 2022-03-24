@@ -4,7 +4,11 @@ import 'package:flutter/material.dart';
 class ChartPainter extends CustomPainter {
   final List<ChartModel>? charts;
   final Color backgroundColor;
-  ChartPainter({required this.charts, required this.backgroundColor});
+  final double strokeWidth;
+  ChartPainter(
+      {required this.charts,
+      required this.backgroundColor,
+      this.strokeWidth = 20});
   @override
   void paint(Canvas canvas, Size size) {
     double persintge = 0;
@@ -12,7 +16,7 @@ class ChartPainter extends CustomPainter {
       ..color = backgroundColor
       ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 20
+      ..strokeWidth = strokeWidth
       ..style = PaintingStyle.stroke;
     canvas.drawLine(const Offset(0, 0), Offset(size.width, 0), bar);
     for (int index = 0; index < charts!.length; index++) {
