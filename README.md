@@ -31,7 +31,7 @@ There are a number of properties that you can modify:
 
 ```dart
 class LinnerChartScreen extends StatelessWidget {  
-  const FancyScreen({Key? key}) : super(key: key);  
+  const LinnerChartScreen({Key? key}) : super(key: key);  
   
   @override  
   Widget build(BuildContext context) {  
