@@ -1,6 +1,6 @@
 name: linner_chart
 description: The Linner Chart package lets you add a beautiful Linner Chart With random Color For Each Item.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/amotie/Flutter-Linner-Chart
 
 environment:
