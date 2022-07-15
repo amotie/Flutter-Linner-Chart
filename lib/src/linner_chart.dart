@@ -1,6 +1,6 @@
-import 'package:chart/src/models/chart_model.dart';
-import 'package:chart/src/view/chart_painter.dart';
 import 'package:flutter/material.dart';
+import 'package:linner_chart/src/models/chart_model.dart';
+import 'package:linner_chart/src/view/chart_painter.dart';
 
 class LinnerChat extends StatelessWidget {
   final List<ChartModel>? charts;

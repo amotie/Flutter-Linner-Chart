@@ -1,5 +1,5 @@
-import 'package:chart/src/helpers/color_picker.dart';
 import 'package:flutter/material.dart';
+import 'package:linner_chart/src/helpers/color_picker.dart';
 
 class ChartModel {
   double persintge;

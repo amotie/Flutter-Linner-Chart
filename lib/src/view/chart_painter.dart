@@ -1,5 +1,5 @@
-import 'package:chart/src/models/chart_model.dart';
 import 'package:flutter/material.dart';
+import 'package:linner_chart/src/models/chart_model.dart';
 
 class ChartPainter extends CustomPainter {
   final List<ChartModel>? charts;
