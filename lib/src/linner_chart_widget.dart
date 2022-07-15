@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:linner_chart/src/models/chart_model.dart';
 import 'package:linner_chart/src/view/chart_painter.dart';
 
-class LinnerChat extends StatelessWidget {
+class LinnerChatWidget extends StatelessWidget {
   final List<ChartModel>? charts;
   final double strokeWidth;
   final Color backgroundColor;
-  const LinnerChat({
+  const LinnerChatWidget({
     Key? key,
     @required this.charts,
     this.strokeWidth = 20,

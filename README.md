@@ -13,7 +13,7 @@ dependencies:
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
-import 'package:linner_chart/chart.dart';;
+import 'package:linner_chart/linner_chart.dart';;
 ```
 
 ## Example
